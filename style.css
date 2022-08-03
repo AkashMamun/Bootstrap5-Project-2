@@ -1,0 +1,109 @@
+.navbar{
+    background-image:linear-gradient(to right, #a517ba,#5f1782)!important;
+
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white !important;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 4px 10px;
+  
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+    background: red;
+}
+
+/*----------Banner Section Start Here----------- */
+#banner{
+    background-image:linear-gradient(to right, #a517ba,#5f1782)!important;
+    color: white;
+
+}
+#banner a img{
+    width:50px;
+    margin-right:7px;
+}
+#banner a{
+    color:white;
+    text-decoration: none;
+}
+
+/*----------Servicess Section Start Here----------- */
+.title{
+    text-align: center;
+
+}
+.title:after{
+    content:'';
+    display:block;
+    background:#7b1798 ;
+    height:5px;
+    width:200px;
+    margin:auto;
+    transform: translateY(20px);
+
+}
+
+.services-box img{
+    width:100px;
+}
+.services-button{
+    background-image:linear-gradient(to right, #a517ba,#5f1782)!important;
+    border:none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    color:white;
+}
+
+/*------------About Section Start Here-----------------*/
+#about{
+    background: #f8f9fa;
+}
+
+/*------------Testimonial Section Start Here-----------------*/
+.user-details{
+    border-left:4px solid #7b1798;
+}
+.user-details img{
+    width:80px;
+}
+/*------------Socila Media Section Start Here-----------------*/
+#social-media{
+    background:#f8f9fa;
+}
+#social-media img{
+    width:60px;
+    transition: .5s;
+
+}
+#social-media img:hover{
+    transform:translateY(-10px);
+}
+/*------------Socila Media Section Start Here-----------------*/
+#footer{
+    background-image:linear-gradient(to right, #a517ba,#5f1782)!important;
+
+}
+.footer-box .fas{
+    background-image:linear-gradient(to right, #a517ba,#5f1782)!important;
+    font-size: 25px;
+    height:40px;
+    width:40px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top:7px;
+    border-radius: 5px;
+
+}
+
+.footer-box input{
+    border-radius: 0;
+    border:none;
+}
+.footer-box button{
+    background-image:linear-gradient(to right, #a517ba,#5f1782)!important;
+    border:none;
+    padding: 8px 15px;
+    margin-top: 15px;
+
+}
